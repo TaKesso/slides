@@ -61,8 +61,8 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
 ---
 
-# お手軽かよ
-# ...最高かよ...
+# お手軽かよ...
+# 最高かよ...
 
 ---
 
@@ -102,25 +102,46 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 ---
 
 ## 実現したいことのイメージ
-#### [自作の　WebApp] <-> [SlackApp] <-> [SlackWorkspace]
+[自作のWebApp]
+
+↕︎
+
+[SlackApp]
+
+↕︎
+
+[SlackWorkspace]
 
 ---
 
-## 左から右
-- 自作のWebApp内での操作をトリガーとして、
-- SlackAppを経由して
-- SlackWorkspaceにリクエストを投げる
+## 上から下
+自作のWebApp内での操作をトリガーとして、
+
+↓
+
+SlackAppを経由して
+
+↓
+
+SlackWorkspaceにリクエストを投げる
 
 ---
 
-## 右から左
-- SlackWorkspace内での操作をトリガーにして、
-- SlackAppを経由して
-- 自作のWebAppにリクエストを投げる
+## 下から上
+自作のWebAppにリクエストを投げる
+
+↑
+
+SlackAppを経由して
+
+↑
+
+SlackWorkspace内での操作をトリガーにして、
 
 ---
 
 ## 今回やりたいこと
+- 『上から下』
 - Workspaceにインストールする形のSlackAppを作る
 - 特定のチャンネルに通知を送ることができる
 - いくつかのWorkspaceで動作検証する
@@ -128,14 +149,38 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 ---
 
 ## Google先生でブログ探しタイム
-- [SlackAppの作り方について](https://qiita.com/yuukiw00w/items/94e4495fc593cfbda45c) #Qiita
-- [BotkitでのSlackアプリ開発方法とデプロイ方法](https://seri.hatenablog.com/entry/2018/01/14/022251) #はてなブログ
+- [SlackのAppDirectoryに掲載してもらった](https://kazu.tv/blog/2017/06/07/my-app-is-now-listed-in-slack-app-directory/) 
+- [SlackAppの作り方について](https://qiita.com/yuukiw00w/items/94e4495fc593cfbda45c)
+- [BotkitでのSlackアプリ開発方法とデプロイ方法](https://seri.hatenablog.com/entry/2018/01/14/022251)
 - **なんかイマイチしっくりこないな〜**
-- その後のググりながらいろんな記事を眺める
-- 全然関係ない面白そうな記事とか読んじゃう
-- **お腹減ったな。え、もう14時...！？**
-- 『結局公式のドキュメント見るのが一番ええやろ』 14:12
-- 一旦サクッとお昼に行く
+- その後もいろんな記事を眺める(ついつい全然関係ない記事読んじゃう)
+- お腹減ったな。え、もう14時...！？
+- **『結局公式ドキュメントを読むのが一番ええやろ』**
 
 ## 公式ドキュメント読む
 - https://api.slack.com/bot-users 
+- 2つのタイプのSlackAppがある
+  - WorkspaceApp <- 今回やるのはこっち
+  - TraditionalApp
+- まずは[Create a workspace app](https://api.slack.com/apps/new_app_token)からアプリを作る
+- [Getting Started with bots in workspace apps](https://api.slack.com/bot-users#getting-started-workspace)に従って進める
+
+
+## 1. Setting up the Events API
+- SlackWorkspaceで発生したイベントを拾うためのAPI
+- 『下から上』の話
+- 今回のスコープ外なのでskip
+
+## 2. Getting a workspace token for a bot
+- SlackWorkspaceにメッセージを投稿するためにはトークンが必要
+- トークンに適切な権限を持たせる
+  - アプリの設定ページで`OAuth & Permissions`開く
+  - `Spoces`のセクションで`Send messages as $ApplicationName [chat:write:bot]`を追加して保存
+  - SlackWorkspaceにアプリケーションをインストールする
+
+## 3. Handling events
+- `1. Setting up the Events API`が済んでいる前提
+- アプリへの呼びかけに対してメッセージをレスポンスする
+
+# OK、だいたい分かった
+# (だいたい)
