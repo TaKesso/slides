@@ -1,4 +1,4 @@
-# Pythonで簡単なSlackAppを作る
+# `Python`で簡単な`SlackApp`を作る
 
 Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
@@ -10,14 +10,14 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
 ---
 
-# え、これ(GitPitch)
+# え、これ(`GitPitch`)
 # すごくない...!?
 
 ---
 
-### ~~Pythonで簡単なSlackAppを作る~~
+### ~~`Python`で簡単な`SlackApp`を作る~~
 
-# GitPitchのススメ
+# `GitPitch`のススメ
 
 Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
@@ -25,7 +25,7 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
 ---
 
-## GitPitchとは
+## `GitPitch`とは
 
 <a href='https://gitpitch.com/'><img src='https://gitpitch.com/gpimg/logo.png' width=200/></a>
 
@@ -35,7 +35,7 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
 ---
 
-## GitPitchとの出会い
+## `GitPitch`との出会い
 
 ---
 
@@ -53,8 +53,8 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
 ---
 
-#### ①GitHubにrepository作る
-#### ② `PITCHME.md` を作る
+#### ①`GitHub`に`repository`作る
+#### ②`PITCHME.md`を作る
 #### ③URLにアクセスする
 
 # 以上！！
@@ -93,7 +93,7 @@ https://gitpitch.com/GitHubのユーザー名/リポジトリ名/ブランチ名
 
 ---
 (本題)
-# Pythonで簡単なSlackAppを作る
+# `Python`で簡単な`SlackApp`を作る
 
 Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
@@ -152,10 +152,15 @@ SlackWorkspace内での操作をトリガーにして、
 - [SlackのAppDirectoryに掲載してもらった](https://kazu.tv/blog/2017/06/07/my-app-is-now-listed-in-slack-app-directory/) 
 - [SlackAppの作り方について](https://qiita.com/yuukiw00w/items/94e4495fc593cfbda45c)
 - [BotkitでのSlackアプリ開発方法とデプロイ方法](https://seri.hatenablog.com/entry/2018/01/14/022251)
-- **なんかイマイチしっくりこないな〜**
+
+---
+
+## なんかイマイチしっくりこないな
 - その後もいろんな記事を眺める(ついつい全然関係ない記事読んじゃう)
 - お腹減ったな。え、もう14時...！？
 - **『結局公式ドキュメントを読むのが一番ええやろ』**
+
+---
 
 ## 公式ドキュメント読む
 - https://api.slack.com/bot-users 
@@ -165,11 +170,14 @@ SlackWorkspace内での操作をトリガーにして、
 - まずは[Create a workspace app](https://api.slack.com/apps/new_app_token)からアプリを作る
 - [Getting Started with bots in workspace apps](https://api.slack.com/bot-users#getting-started-workspace)に従って進める
 
+---
 
 ## 1. Setting up the Events API
 - SlackWorkspaceで発生したイベントを拾うためのAPI
 - 『下から上』の話
 - 今回のスコープ外なのでskip
+
+---
 
 ## 2. Getting a workspace token for a bot
 - SlackWorkspaceにメッセージを投稿するためにはトークンが必要
@@ -178,9 +186,20 @@ SlackWorkspace内での操作をトリガーにして、
   - `Spoces`のセクションで`Send messages as $ApplicationName [chat:write:bot]`を追加して保存
   - SlackWorkspaceにアプリケーションをインストールする
 
+---
+
 ## 3. Handling events
 - `1. Setting up the Events API`が済んでいる前提
 - アプリへの呼びかけに対してメッセージをレスポンスする
 
+---
+
 # OK、だいたい分かった
 # (だいたい)
+
+---
+
+# アプリケーションを作っていく
+# (現在15:50)
+
+---
