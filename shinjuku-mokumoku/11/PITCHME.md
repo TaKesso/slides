@@ -10,7 +10,8 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
 ---
 
-# 『え、これ(GitPitch)すごくない...!?』
+# え、これ(GitPitch)、
+# すごくない...!?
 
 ---
 
@@ -26,7 +27,7 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
 ## GitPitchとは
 
-[![](https://gitpitch.com/gpimg/logo.png)](https://gitpitch.com/)
+<a href='https://gitpitch.com/'><img src='https://gitpitch.com/gpimg/logo.png' width=200/></a>
 
 - **GitHubだけで高機能なスライドが作れるWebアプリケーション**
 - https://gitpitch.com/
@@ -43,7 +44,8 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
 ---
 
-## 『なんだろうこの気持ち...出会ってしまったかもしれない...』
+## なんだろうこの気持ち...
+## 運命かもしれない...
 
 ---
 
@@ -52,14 +54,15 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 ---
 
 #### ①GitHubにrepository作る
-#### ②`PITCHME.md`を作る
+#### ② `PITCHME.md` を作る
 #### ③URLにアクセスする
 
 # 以上！！
 
 ---
 
-# お手軽かよ...最高かよ...
+# お手軽かよ
+# ...最高かよ...
 
 ---
 
@@ -82,14 +85,14 @@ https://gitpitch.com/GitHubのユーザー名/リポジトリ名/ブランチ名
 ## 設定のカスタマイズもできます
 
 - (まだやってないからよく分からない)
-- `PITCHME.yaml`を作るらしい
+- `PITCHME.yaml` を作るらしい
 
 ---
 
 # ぜひ使ってみてください！
 
 ---
-
+(本題)
 # Pythonで簡単なSlackAppを作る
 
 Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
