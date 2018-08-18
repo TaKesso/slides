@@ -10,7 +10,7 @@ Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
 ---
 
-# え、これ(GitPitch)、
+# え、これ(GitPitch)
 # すごくない...!?
 
 ---
@@ -98,3 +98,44 @@ https://gitpitch.com/GitHubのユーザー名/リポジトリ名/ブランチ名
 Takesso([@TaKesso_tw](https://twitter.com/TaKesso_tw))
 
 『(GitPitchでお腹いっぱい感はあるけど)やっていくぞ！』
+
+---
+
+## 実現したいことのイメージ
+#### [自作の　WebApp] <-> [SlackApp] <-> [SlackWorkspace]
+
+---
+
+## 左から右
+- 自作のWebApp内での操作をトリガーとして、
+- SlackAppを経由して
+- SlackWorkspaceにリクエストを投げる
+
+---
+
+## 右から左
+- SlackWorkspace内での操作をトリガーにして、
+- SlackAppを経由して
+- 自作のWebAppにリクエストを投げる
+
+---
+
+## 今回やりたいこと
+- Workspaceにインストールする形のSlackAppを作る
+- 特定のチャンネルに通知を送ることができる
+- いくつかのWorkspaceで動作検証する
+
+---
+
+## Google先生でブログ探しタイム
+- [SlackAppの作り方について](https://qiita.com/yuukiw00w/items/94e4495fc593cfbda45c) #Qiita
+- [BotkitでのSlackアプリ開発方法とデプロイ方法](https://seri.hatenablog.com/entry/2018/01/14/022251) #はてなブログ
+- **なんかイマイチしっくりこないな〜**
+- その後のググりながらいろんな記事を眺める
+- 全然関係ない面白そうな記事とか読んじゃう
+- **お腹減ったな。え、もう14時...！？**
+- 『結局公式のドキュメント見るのが一番ええやろ』 14:12
+- 一旦サクッとお昼に行く
+
+## 公式ドキュメント読む
+- https://api.slack.com/bot-users 
