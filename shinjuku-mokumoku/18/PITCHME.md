@@ -58,7 +58,7 @@ is
 
 ---
 
-<img width="254" alt="2018-10-20 17 03 49" src="https://user-images.githubusercontent.com/26683960/47253124-2bc97b00-d48a-11e8-84a1-cef36a62c505.png">
+<img width="800" alt="2018-10-20 17 03 49" src="https://user-images.githubusercontent.com/26683960/47253124-2bc97b00-d48a-11e8-84a1-cef36a62c505.png">
 
 ---
 
@@ -68,13 +68,13 @@ is
 
 # Before
 
-<img width="274" alt="2018-10-20 17 08 37" src="https://user-images.githubusercontent.com/26683960/47253171-d477da80-d48a-11e8-9804-0a28dbefdb06.png">
+<img width="800" alt="2018-10-20 17 08 37" src="https://user-images.githubusercontent.com/26683960/47253171-d477da80-d48a-11e8-9804-0a28dbefdb06.png">
 
 ---
 
 # After
 
-<img width="254" alt="2018-10-20 17 03 49" src="https://user-images.githubusercontent.com/26683960/47253124-2bc97b00-d48a-11e8-84a1-cef36a62c505.png">
+<img width="800" alt="2018-10-20 17 03 49" src="https://user-images.githubusercontent.com/26683960/47253124-2bc97b00-d48a-11e8-84a1-cef36a62c505.png">
 
 ---
 
@@ -92,7 +92,7 @@ is
 
 弊社Slackにて
 
-<img width="443" alt="2018-10-20 17 12 32" src="https://user-images.githubusercontent.com/26683960/47253206-5f58d500-d48b-11e8-82f2-3e6878bf9242.png">
+<img width="600" alt="2018-10-20 17 12 32" src="https://user-images.githubusercontent.com/26683960/47253206-5f58d500-d48b-11e8-82f2-3e6878bf9242.png">
 
 ---
 
@@ -100,7 +100,7 @@ is
 
 ---
 
-<img width="600" src="https://4.bp.blogspot.com/-_xwGi-966Hk/WQA-FKnIqVI/AAAAAAABD48/M5hJssVnVKksRjnSbXdR2UldXghNxXz_QCLcB/s800/ma-jan_man.png">
+<img width="800" src="https://4.bp.blogspot.com/-_xwGi-966Hk/WQA-FKnIqVI/AAAAAAABD48/M5hJssVnVKksRjnSbXdR2UldXghNxXz_QCLcB/s800/ma-jan_man.png">
 
 ---
 
