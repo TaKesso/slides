@@ -86,6 +86,12 @@ is
 
 ---
 
+## ボタンを押すとこうなる
+
+<img width="627" alt="2018-10-20 17 38 29" src="https://user-images.githubusercontent.com/26683960/47253545-51a54e80-d48f-11e8-8b9d-fafdbbf22d32.png">
+
+---
+
 # 今後やっていきたいこと
 
 --- 
