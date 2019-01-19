@@ -54,9 +54,13 @@ SlackワークスペースIDとSlackユーザIDがあれば良さそう
 
 # 4. Slackログインボタンを置く
 
-置く。
+---
 
 <img width="926" alt="2019-01-19 16 32 05" src="https://user-images.githubusercontent.com/26683960/51423746-e55df680-1c07-11e9-894a-5b9094195f74.png">
+
+---
+
+置いた。
 
 ---
 
@@ -83,7 +87,9 @@ SlackワークスペースIDとSlackユーザIDがあれば良さそう
 
 ---
 
-## ボタンを押すとこうなる
+## slackログインボタンを押すと、こうなる
+
+---
 
 <img width="868" alt="2019-01-19 16 36 23" src="https://user-images.githubusercontent.com/26683960/51423785-6d440080-1c08-11e9-8b02-50b5bbb780c4.png">
 
