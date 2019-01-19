@@ -94,8 +94,6 @@ SlackワークスペースIDとSlackユーザIDがあれば良さそう
 <img width="868" alt="2019-01-19 16 36 23" src="https://user-images.githubusercontent.com/26683960/51423785-6d440080-1c08-11e9-8b02-50b5bbb780c4.png">
 
 ---
-
----
 # 5. ログインが許可された後の処理を書く
 
 - getパラメータにcodeがついてくる
